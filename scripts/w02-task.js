@@ -24,7 +24,7 @@ const foodElement = document.getElementById("food");
 const yearElement = document.querySelector("#year");
 
 //4.Use any viable method to get the profile image element stored into a variable named "imageElement".
-const imageElement = document.querySelector("main#home profile img");
+const imageElement = document.querySelector("img");
 
 /* Step 4 - Adding Content */
 

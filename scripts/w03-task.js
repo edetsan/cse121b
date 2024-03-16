@@ -1,7 +1,7 @@
 /* LESSON 3 - Programming Tasks */
 
 /* FUNCTIONS */
-/* Function Definition - Add Numbers */
+/* Addition Feature*/
 
 function add(number1, number2){
     //function body
@@ -23,7 +23,7 @@ document.querySelector("#addNumbers").addEventListener("click", addNumbers);
 
 
 
-/* Function Expression - Subtract Numbers */
+/* Subtraction Feature */
 
 const subtract = function (subtract1, subtract2) {
     return subtract1 - subtract2;
@@ -41,11 +41,8 @@ const subtractNumbers = function () {
 
 document.querySelector('#subtractNumbers').addEventListener('click', subtractNumbers);
 
-
-
-
-
-/* Arrow Function - Multiply Numbers */
+/* Arrow Functions */
+/* Multiplication Feature */
 
 const multiply = (factor1, factor2) => {
     return factor1 * factor2;
@@ -63,10 +60,8 @@ const multiplyNumbers = () => {
 
 document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNumbers);
 
-
-
-
-/* Open Function Use - Divide Numbers */
+/* Your Choice */
+/* Division Feature */
 
 function divide (dividend, divisor){
     //function body
@@ -85,11 +80,7 @@ function divideNumbers () {
 
 document.querySelector("#divideNumbers").addEventListener("click", divideNumbers);
 
-
-
-
-
-/* Decision Structure */
+/* Selection Structures */
 
 //initialize variables
 
@@ -105,6 +96,7 @@ function getTotal() {
    document.getElementById("total").textContent = `$${subtotal.toFixed(2)}`;
 }
 document.getElementById("getTotal").addEventListener("click", getTotal);
+
 
 const currentDate = new Date().getDate();
 const currentYear = new Date().getFullYear();

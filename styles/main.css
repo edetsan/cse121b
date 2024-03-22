@@ -292,6 +292,7 @@ footer {
     nav ul li {
         display: block;
     }
+    
 
     section {
         min-width: 300px;
@@ -311,5 +312,7 @@ footer {
         margin: 0 auto;
         max-width: 950px;
     }
+    
+    
 
 }
